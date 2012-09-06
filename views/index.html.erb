@@ -9,3 +9,7 @@
   <%= @name %>
 </p>
 
+<form method='post' action="<%= @request.path %>">
+        First name: <input type="text" name="first_name" placeholder='first name'/><br />
+        <input type="submit" value="Submit" />
+</form>
