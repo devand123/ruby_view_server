@@ -6,6 +6,7 @@ def process_erb(string)
   return template.result(binding)
 end
 
+
 puts "============================================================"
 puts "=== Converting files in /views to html with layout ========="
 puts "============================================================"
